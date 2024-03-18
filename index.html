@@ -4,63 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Company Links</title>
     <link rel="stylesheet" href="./myStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div style="display: flex;">
 
-        <div class="companyButtons" style="display:grid;">
-            <h1>Company</h1>
-            <button>GHT </button>
-            <button>GHRS NH/GHRS TN</button>
-            <button>GHT TN</button>
-            <button>Dr Drew/GHT TN</button>
-            <button>IHC/ABA old Tax ID</button>
-            <button>ABACOA</button>
-            <button>ABA Cares of FL</button>
-            <button>Emily</button>
-            <button>ABA Centers of GA</button>
-            <button>ABA Centers of PA</button>
-            <button>ABA Centers of TN</button>
-            <button>ABA Centers of NJ</button>
-            <button>MARSauditor FL</button>
-            <button>Zeilis</button>
-            <button>MARSauditor ABACOA</button><button>MARSauditor ABAGA
-            </button><button>MARSauditor ABA centers of NJ</button>
-            <button>Mat Care</button>
-            <button>Data iSight Provider Service</button>
+    <h1 style="background-color: rgb(6, 54, 155); margin: 0; color: white; padding-left: 2%;">Companies</h1>
+    
+    <div style="display: flex; background-color: #dddddd83; margin-top: 5%; border-radius: 2%; padding-bottom: 5%;">
+
+
+
+        <div class="companyButtons" style="display:grid; grid-gap: 5px;">
+            <h1>Companies</h1>
+            <button><a href="">Company 1</a> </button>
+            <button><a href="">Company 2</a></button>
+            <button><a href="">Company 3</a></button>
+            <button><a href="">Company 4</a></button>
+            <button><a href="">Company 5</a></button>
+            <button><a href="">Company 6</a></button>
+            <button><a href="">Company 7</a></button>
+            <button><a href="">Company 8</a></button>
+            <button><a href="">Company 9</a></button>
+
         </div>
-        <div style="display:grid; margin: 1rem;">
-            <h1>TIN</h1>
-            <button>Dr Drew/GHT TN</button>
-            <button>GHRS NH/GHRS TN</button>
-            <button>GHT TN</button>
-            <button>Dr Drew/GHT TN</button>
-            <button>IHC/ABA old Tax ID</button>
-            <button>ABACOA</button>
-            <button>ABA Cares of FL</button>
-            <button>Emily</button>
-            <button>ABA Centers of GA</button>
-            <button>ABA Centers of PA</button>
-            <button>ABA Centers of TN</button>
-            <button>ABA Centers of NJ</button>
-            <button>MARSauditor FL</button>
-            <button>Zeilis</button>
-            <button>MARSauditor ABACOA</button><button>MARSauditor ABAGA
-            </button><button>MARSauditor ABA centers of NJ</button>
-            <button>Mat Care</button>
-            <button>Data iSight Provider Service</button>
+        <div class="tinButtons" style="display:grid; margin: 1rem; grid-gap: 5px;">
+            <h1>Password</h1>
+            <button class="tinbtn">----</button>
+            <button class="tinbtn">----</button>
+            <button class="tinbtn">----</button>
+            <button class="tinbtn">----</button>
+            <button class="tinbtn">----</button>
+            <button class="tinbtn">----</button>
+            <button class="tinbtn">----</button>
+            <button class="tinbtn">----</button>
+            <button class="tinbtn">----</button>
+
         </div>
+        <div class="statusButtons" style="display:grid; margin: 1rem; grid-gap: 5px;"> 
+        <h1>Status</h1>
+        <button class="btn">Updated</button>
+        <button class="btn">Updated</button>
+        <button class="btn">Updated</button>
+        <button class="btn">Updated</button>
+        <button class="btn">Updated</button>
+        <button class="btn">Updated</button>
+        <button class="btn">Updated</button>
+        <button class="btn">Updated</button>
+        <button class="btn">Updated</button>
+        
 
 
 
+        
+
+        </div>
+        <img src="https://th.bing.com/th/id/R.b2b8b471ad03472f4810cbe03f998204?rik=nFLJDfiZxaGRUA&riu=http%3a%2f%2fis5.mzstatic.com%2fimage%2fthumb%2fPurple127%2fv4%2fbd%2f64%2f34%2fbd643461-a5a1-54c0-a419-ee1a5d58b192%2fsource%2f512x512bb.jpg&ehk=LOZMbx97q9utdp7scyObJjIfiV4ho5KSWxC56YU8TFM%3d&risl=&pid=ImgRaw&r=0" height="150px" alt="logo" style="margin-left: 40%;">
     </div>
+    
+    <style>
+        /* Popup container */
+        .popup {
+            cursor: pointer;
+        }
+        .popuptext {
+            text-align: center;
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            z-index: 1;
+        }
+    </style>
 
+<div class="popup" onclick="showPopup()">Click me!</div>
+<div class="popuptext" id="myPopup">Copied...</div>
 
-
-
+<script src="./myScripts.js"></script>
 </body>
 
 </html>
