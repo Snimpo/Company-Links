@@ -1,8 +1,19 @@
 button {
 display: flexbox;
 
+
 }
 
 .companyButtons{
     margin: 1rem;
 }
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Inter, sans-serif;
+    
+}
+
+
+
+
